@@ -74,7 +74,7 @@ A command-line tool on PyPI that reads your staged diff and writes a Conventiona
 
 ### Outside code
 
-Favourites: *One Piece*, the *Red Rising* books and *Snowfall* · playing piano · swimming · deep dives into niche problems · peaked Emerald in League of Legends
+I'm usually reading, watching anime or TV, gaming, playing piano, swimming, or deep in a rabbit hole on some niche problem. My favourites are the *Red Rising* books, *One Piece* and *Snowfall*. I also peaked Emerald in League of Legends.
 
 ---
 
