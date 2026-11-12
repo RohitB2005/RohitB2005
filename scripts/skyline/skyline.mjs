@@ -7,8 +7,8 @@ import { fontFace, rng, seedFrom, r1, loadCalendar, monthLabel } from './lib.mjs
 const [, , calPath, outDir = '.'] = process.argv;
 const cal = loadCalendar(calPath);
 
-const W = 846, H = 400, BASE = 362; // BASE = waterline
-const MARGIN = 14, MAX_H = 168, MIN_FLOOR_H = 3;
+const W = 846, H = 400, BASE = 374; // BASE = waterline
+const MARGIN = 14, MAX_H = 180, MIN_FLOOR_H = 3;
 // Three window columns per building, widened only if a week ever has more contributions than fit.
 const MAX_FLOORS = Math.floor((MAX_H - 4) / MIN_FLOOR_H);
 const COLS = Math.min(5, Math.max(3, Math.ceil(Math.max(...cal.weekTotals, 1) / MAX_FLOORS)));
@@ -171,7 +171,7 @@ ${fontFace('Quicksand', 'quicksand.woff2', '300 700')}
 <radialGradient id="podglow"><stop offset="0" stop-color="${t.pod}" stop-opacity="${theme === 'dark' ? 0.35 : 0}"/><stop offset="1" stop-color="${t.pod}" stop-opacity="0"/></radialGradient>
 <radialGradient id="glow" cx="50%" cy="100%" r="60%"><stop offset="0" stop-color="${t.glow}" stop-opacity="${t.glowOpacity}"/><stop offset="1" stop-color="${t.glow}" stop-opacity="0"/></radialGradient>
 <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.water[0]}"/><stop offset="1" stop-color="${t.water[1]}"/></linearGradient>
-<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset=".3" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <mask id="rm"><rect x="0" y="${BASE}" width="${W}" height="${H - BASE}" fill="url(#fade)"/></mask>
 <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4"/></filter>
 <clipPath id="card"><rect width="${W}" height="${H}" rx="14"/></clipPath>
