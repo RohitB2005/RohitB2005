@@ -7,8 +7,8 @@ import { fontFace, rng, seedFrom, r1, loadCalendar, monthLabel } from './lib.mjs
 const [, , calPath, outDir = '.'] = process.argv;
 const cal = loadCalendar(calPath);
 
-const W = 846, H = 400, BASE = 374; // BASE = waterline
-const MARGIN = 14, MAX_H = 180, MIN_FLOOR_H = 3;
+const W = 846, H = 400, BASE = 368; // BASE = waterline
+const MARGIN = 14, MAX_H = 174, MIN_FLOOR_H = 3;
 // Three window columns per building, widened only if a week ever has more contributions than fit.
 const MAX_FLOORS = Math.floor((MAX_H - 4) / MIN_FLOOR_H);
 const COLS = Math.min(5, Math.max(3, Math.ceil(Math.max(...cal.weekTotals, 1) / MAX_FLOORS)));
