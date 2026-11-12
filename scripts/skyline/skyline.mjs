@@ -192,7 +192,7 @@ ${backLayer(t)}
 </g>
 <rect x="0" y="${BASE}" width="${W}" height="${H - BASE}" fill="url(#water)"/>
 <g mask="url(#rm)" opacity="${t.reflect}"><use href="#city" xlink:href="#city" transform="translate(0 ${2 * BASE}) scale(1 -1)"/></g>
-<text class="meta" x="${MARGIN + 2}" y="${H - 12}">${monthLabel(cal.first)}</text><text class="meta" x="${W - MARGIN - 2}" y="${H - 12}" text-anchor="end">${monthLabel(cal.last)}</text>
+<text class="meta" x="${MARGIN + 2}" y="${H - 12}">${monthLabel(cal.first)}</text><text class="meta" x="${W - MARGIN - 2}" y="${H - 12}" text-anchor="end">${monthLabel(cal.last)}</text><text class="meta" x="${W / 2}" y="${H - 12}" text-anchor="middle">My last 12 months on GitHub: one building per week, one lit window per contribution</text>
 <rect x="0" y="${BASE}" width="${W}" height="0.8" fill="${t.lit[0]}" opacity="${theme === 'dark' ? 0.18 : 0.5}"/>
 </g>
 </svg>`;

@@ -1,9 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg">
-  <img alt="Rohit Balaji: Software Engineer · AI Engineering · Full-Stack. An Auckland skyline drawn from my last year of GitHub contributions." src="assets/skyline-light.svg" width="100%">
+  <img alt="Rohit Balaji: Software Engineer · AI Engineering · Full-Stack. An Auckland skyline drawn from my last 12 months of GitHub contributions: one building per week, one lit window per contribution." src="assets/skyline-light.svg" width="100%">
 </picture>
-
-<p align="center"><sub>My last 12 months on GitHub: one building per week, one lit window per contribution. Redrawn every night.</sub></p>
 
 <p align="center">
   <a href="https://github.com/hazikchaudhry/Dazey-First-Place-Winner#gh-dark-mode-only"><img alt="1st Place and the Emerging Talent award, GDGCxDEVS Hackathon 2025" src="assets/awards/gdgcxdevs-2025-dark.svg"></a><a href="https://github.com/hazikchaudhry/Dazey-First-Place-Winner#gh-light-mode-only"><img alt="1st Place and the Emerging Talent award, GDGCxDEVS Hackathon 2025" src="assets/awards/gdgcxdevs-2025-light.svg"></a>&nbsp;
