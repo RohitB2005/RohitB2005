@@ -1,0 +1,7 @@
+# Local review material, never published
+_inspiration/
+_review/
+Screenshot*.png
+
+.DS_Store
+node_modules/
