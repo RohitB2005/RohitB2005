@@ -3,6 +3,8 @@
   <img alt="Rohit Balaji: Software Engineer · AI Engineering · Full-Stack. An Auckland skyline drawn from my last year of GitHub contributions." src="assets/skyline-light.svg" width="100%">
 </picture>
 
+<p align="center"><sub>My last 12 months on GitHub: one building per week, one lit window per contribution. Redrawn every night.</sub></p>
+
 <p align="center">
   <a href="https://github.com/hazikchaudhry/Dazey-First-Place-Winner#gh-dark-mode-only"><img alt="1st Place and the Emerging Talent award, GDGCxDEVS Hackathon 2025" src="assets/awards/gdgcxdevs-2025-dark.svg"></a><a href="https://github.com/hazikchaudhry/Dazey-First-Place-Winner#gh-light-mode-only"><img alt="1st Place and the Emerging Talent award, GDGCxDEVS Hackathon 2025" src="assets/awards/gdgcxdevs-2025-light.svg"></a>&nbsp;
   <a href="https://youtu.be/IeoIhRrnaW8#gh-dark-mode-only"><img alt="Winner of Challenge 3, Innovate AI Hackathon 2026, run with BNZ and AWS" src="assets/awards/innovate-ai-2026-dark.svg"></a><a href="https://youtu.be/IeoIhRrnaW8#gh-light-mode-only"><img alt="Winner of Challenge 3, Innovate AI Hackathon 2026, run with BNZ and AWS" src="assets/awards/innovate-ai-2026-light.svg"></a>&nbsp;
@@ -75,7 +77,3 @@ A command-line tool on PyPI that reads your staged diff and writes a Conventiona
 ### Outside code
 
 I'm usually reading, watching anime or TV, gaming, playing piano, swimming, or deep in a rabbit hole on some niche problem. My favourites are the *Red Rising* books, *One Piece* and *Snowfall*. I also peaked Emerald in League of Legends.
-
----
-
-<sub>The skyline is my last 12 months on GitHub: one building per week, one lit window per contribution. A GitHub Action redraws it every night.</sub>
